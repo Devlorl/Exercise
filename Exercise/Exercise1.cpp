@@ -7,7 +7,7 @@ int main() {
     //Date 1:
     cout << "Enter the date 1:\n";
     cin >> date1;
-    cout << "The date of date 1 is " << date1.calculateDayOfWeek(date1) << " " << date1 << endl;
+    cout << "The day of date 1 is " << date1.calculateDayOfWeek(date1) << " " << date1 << endl;
     ++date1;
     cout << "The next date of date 1 is " << date1 << endl;
     --date1;
@@ -17,7 +17,7 @@ int main() {
     //Date 2:
     cout << "Enter the date 2:\n";
     cin >> date2;
-    cout << "The date of date 2 is: " << date2.calculateDayOfWeek(date2) << " " << date2 << endl;
+    cout << "The day of date 2 is: " << date2.calculateDayOfWeek(date2) << " " << date2 << endl;
     ++date2;
     cout << "The next date of date 2 is: " << date2 << endl;
     --date2;
