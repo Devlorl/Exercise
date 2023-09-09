@@ -11,7 +11,7 @@ bool Cdate::check(const int& a, const int& b, const int& c) {
             return false;
         break;
     case 2:
-        if (c % 400 == 0 || (c % 4 == 0 && c % 100 == 0)) {
+        if (c % 400 == 0 || (c % 4 == 0 && c % 100 != 0)) {
             if (a <= 0 || a > 29)
                 return false;
         }
