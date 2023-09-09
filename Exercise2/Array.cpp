@@ -260,7 +260,7 @@ void Array::search_Location(Array& a, int x,const string& type, bool check_type 
 		a.radix_Sort(a, true);
 	}
 	else {
-		a.radix_Sort(a, false);0
+		a.radix_Sort(a, false);
 	}
 	if (type == "Linearsearch") {
 		cout << "\nSearch " << x << " by Linear search:\n";
